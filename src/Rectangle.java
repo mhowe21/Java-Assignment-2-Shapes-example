@@ -23,11 +23,6 @@ public class Rectangle implements Shape {
     }
 
     @Override
-    public double getPerimeter() {
-        return 2 * (length + width);
-    }
-
-    @Override
     public double getVolume() {
         return length * width;
     }

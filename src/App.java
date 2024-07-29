@@ -26,7 +26,7 @@ public class App {
                 // this switch case gets the inputs for the different shapes and sends it to the
                 // Shape interface
                 switch (choice) {
-                    // Rectangle shape calculations
+                    // Rectangle shape methods
                     case 1:
                         System.out.println("Enter the length of the rectangle: ");
                         double length = sc.nextDouble();
@@ -34,9 +34,8 @@ public class App {
                         double width = sc.nextDouble();
                         Shape rectangle = new Rectangle(length, width);
                         System.out.println("The area of the rectangle is: " + rectangle.getArea());
-                        System.out.println("The perimeter of the rectangle is: " + rectangle.getPerimeter());
                         break;
-                    // cube or rectangular prism shape calculations
+                    // cube or rectangular prism methods
                     case 2:
                         System.out.println("Enter the length of the cube or rectangular prism: ");
                         double cubeLength = sc.nextDouble();
@@ -46,20 +45,17 @@ public class App {
                         double cubeHeight = sc.nextDouble();
                         Shape cuboid = new Cuboid(cubeLength, cubeWidth, cubeHeight);
                         System.out.println("The area of the cube or rectangular prism is: " + cuboid.getArea());
-                        System.out
-                                .println("The perimeter of the cube or rectangular prism is: " + cuboid.getPerimeter());
                         System.out.println("The volume of the cube or rectangular prism is: " + cuboid.getVolume());
                         break;
-                    // sphere shape calculations
+                    // sphere shape methods
                     case 3:
                         System.out.println("Enter the radius of the sphere: ");
                         double radius = sc.nextDouble();
                         Shape sphere = new Sphere(radius);
                         System.out.println("The area of the sphere is: " + sphere.getArea());
-                        System.out.println("The perimeter of the sphere is: " + sphere.getPerimeter());
                         System.out.println("The volume of the sphere is: " + sphere.getVolume());
                         break;
-                    // cylinder shape calculations
+                    // cylinder shape methods
                     case 4:
                         System.out.println("Enter the radius of the cylinder: ");
                         double cylinderRadius = sc.nextDouble();
@@ -67,7 +63,6 @@ public class App {
                         double cylinderHeight = sc.nextDouble();
                         Shape cylinder = new Cylinder(cylinderRadius, cylinderHeight);
                         System.out.println("The area of the cylinder is: " + cylinder.getArea());
-                        System.out.println("The perimeter of the cylinder is: " + cylinder.getPerimeter());
                         System.out.println("The volume of the cylinder is: " + cylinder.getVolume());
                         break;
                     default:

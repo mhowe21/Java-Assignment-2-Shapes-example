@@ -16,11 +16,6 @@ public class Cuboid implements Shape {
     }
 
     @Override
-    public double getPerimeter() {
-        return 4 * (length + width + height);
-    }
-
-    @Override
     public double getVolume() {
         return length * width * height;
     }

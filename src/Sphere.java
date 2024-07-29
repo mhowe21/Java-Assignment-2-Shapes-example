@@ -17,9 +17,4 @@ public class Sphere implements Shape {
         return (4 / 3) * Math.PI * Math.pow(radius, 3);
     }
 
-    @Override
-    public double getPerimeter() {
-        return 2 * Math.PI * radius;
-    }
-
 }

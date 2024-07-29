@@ -14,11 +14,6 @@ public class Cylinder implements Shape {
     }
 
     @Override
-    public double getPerimeter() {
-        return ((4 * radius) + (2 * height));
-    }
-
-    @Override
     public double getVolume() {
         return Math.PI * Math.pow(radius, 2) * height;
     }
