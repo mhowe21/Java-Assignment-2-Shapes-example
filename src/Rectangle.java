@@ -1,9 +1,9 @@
-// Rectangle.java class
+// This class implements the Shape interface and gives the details of the Rectangle shape
 public class Rectangle implements Shape {
-    private double  length;
-    private double  width;
+    private double length;
+    private double width;
 
-    public Rectangle(double  length, double  width) {
+    public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
 
@@ -20,11 +20,6 @@ public class Rectangle implements Shape {
     @Override
     public double getArea() {
         return length * width;
-    }
-
-    @Override
-    public double getPerimeter() {
-        return 2 * (length + width);
     }
 
     @Override
