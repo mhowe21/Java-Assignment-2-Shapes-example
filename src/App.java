@@ -8,14 +8,14 @@ public class App {
     public static void userInput() {
         Boolean continueRunning = true;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of the shape you want to calculate: ");
-        System.out.println("1. Rectangle");
-        System.out.println("2. Cube or rectangular prism");
-        System.out.println("3. Sphere");
-        System.out.println("4. Cylinder");
-        int choice = sc.nextInt();
 
         do {
+            System.out.println("Enter the number of the shape you want to calculate: ");
+            System.out.println("1. Rectangle");
+            System.out.println("2. Cube or rectangular prism");
+            System.out.println("3. Sphere");
+            System.out.println("4. Cylinder");
+            int choice = sc.nextInt();
             switch (choice) {
                 case 1:
                     System.out.println("Enter the length of the rectangle: ");
