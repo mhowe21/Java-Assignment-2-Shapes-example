@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        // this program gets the input from the user on which shape they want to
-        // calculate area volume and perimeter for.
+        // This program gets the input from the user on which shape they want to
+        // Calculate area and volume for.
         userInput();
     }
 
